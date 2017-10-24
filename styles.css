@@ -1,0 +1,28 @@
+body {
+  width: 980px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.content {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+img {
+  width: 300px;
+  max-width: 300px;
+  display: inline-block;
+  /*max-width: 500px;
+  max-height: 500px;*/
+  margin: 0 auto;
+}
+page {
+  max-width: 980px;
+}
+.image-wrapper {
+  display: inline-block;
+}
+p {
+  padding: 0 40px;
+}
