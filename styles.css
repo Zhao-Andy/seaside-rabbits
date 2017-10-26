@@ -3,6 +3,14 @@ body {
   max-width: 980px;
   margin: 0 auto;
 }
+h1 {
+  font-family: "Bell MT", sans-serif;
+  margin-bottom: 0px;
+}
+h3 {
+  margin-top: 5px;
+  font-family: "Lucida Calligraphy", sans-serif;
+}
 .content {
   text-align: center;
   display: inline-block;
@@ -16,6 +24,7 @@ img {
   /*max-width: 500px;
   max-height: 500px;*/
   margin: 0 auto;
+  padding: 0 7px;
 }
 page {
   max-width: 980px;
@@ -24,5 +33,6 @@ page {
   display: inline-block;
 }
 p {
+  font-family: "Calibri", sans-serif;
   padding: 0 40px;
 }
