@@ -1,22 +1,27 @@
+page {
+  max-width: 980px;
+}
+
 body {
   width: 980px;
   max-width: 980px;
   margin: 0 auto;
 }
+
 h1 {
   font-family: "Bell MT", sans-serif;
   margin-bottom: 0px;
 }
+
 h3 {
   margin-top: 5px;
   font-family: "Lucida Calligraphy", sans-serif;
 }
-.content {
-  text-align: center;
+
+.image-wrapper {
   display: inline-block;
-  position: relative;
-  width: 100%;
 }
+
 img {
   width: 300px;
   max-width: 300px;
@@ -26,12 +31,18 @@ img {
   margin: 0 auto;
   padding: 0 7px;
 }
-page {
-  max-width: 980px;
+
+figcaption {
+  font-style: italic;
 }
-.image-wrapper {
+
+.content {
+  text-align: center;
   display: inline-block;
+  position: relative;
+  width: 100%;
 }
+
 p {
   font-family: "Calibri", sans-serif;
   padding: 0 40px;
