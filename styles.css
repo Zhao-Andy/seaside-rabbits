@@ -6,6 +6,7 @@ body {
   width: 980px;
   max-width: 980px;
   margin: 0 auto;
+  color: #3d3d3d;
 }
 
 h1 {
@@ -45,5 +46,12 @@ figcaption {
 
 p {
   font-family: "Calibri", sans-serif;
+}
+
+.text {
+  max-width: 605px;
+  margin: 0 auto;
+  display: inline-block;
   padding: 0 40px;
+  text-align: left;
 }
