@@ -3,6 +3,8 @@ page {
 }
 
 body {
+  /*background-color: #bde5a4;*/
+  /*background-image: url("images/39040435-mint-green-wallpapers.jpg");*/
   width: 980px;
   max-width: 980px;
   margin: 0 auto;
@@ -10,17 +12,20 @@ body {
 }
 
 h1 {
-  font-family: "Bell MT", sans-serif;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 3px;
   margin-bottom: 0px;
 }
 
 h3 {
   margin-top: 5px;
-  font-family: "Lucida Calligraphy", sans-serif;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 3px;
 }
 
 .image-wrapper {
   display: inline-block;
+
 }
 
 img {
@@ -31,6 +36,11 @@ img {
   max-height: 500px;*/
   margin: 0 auto;
   padding: 0 7px;
+}
+
+.heading {
+  margin: 50px 0 -10px 0;
+  letter-spacing: 2px;
 }
 
 figcaption {
@@ -45,11 +55,17 @@ figcaption {
 }
 
 p {
-  font-family: "Calibri", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 125%;
+}
+
+#four {
+
 }
 
 .text {
-  max-width: 605px;
+  font-family: 'Josefin Sans', sans-serif;
+  max-width: 600px;
   margin: 0 auto;
   display: inline-block;
   padding: 0 40px;
