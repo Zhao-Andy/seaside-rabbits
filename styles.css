@@ -2,6 +2,7 @@ body {
   margin: 10px;
   text-align: center;
   font-family: 'Calibri';
+  src: url('Calibri\ Regular.ttf');
 }
 .top-header {
   display: flex;
@@ -29,6 +30,7 @@ body {
   max-width: 240px;
   color: red;
   font-family: 'Calibri Light';
+  src: url('Calibri\ Light.ttf');
   font-weight: 500;
 }
 .top-header p {
@@ -36,6 +38,7 @@ body {
 }
 .title-header h2 {
   font-family: 'Lucida Calligraphy';
+  src: url('LCALLIG.ttf');
   font-weight: 400;
   font-size: 40px;
   margin: 20px 0;
