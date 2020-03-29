@@ -50,6 +50,9 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+footer .same-line p {
+  margin: 0;
+}
 .left {
   text-align: left;
 }
@@ -98,8 +101,5 @@ footer {
   }
   footer {
     margin-top: 20px;
-  }
-  footer .same-line p {
-    margin: 0;
   }
 }
