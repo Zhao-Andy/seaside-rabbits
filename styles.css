@@ -1,73 +1,93 @@
-page {
-  max-width: 980px;
-}
-
 body {
-  /*background-color: #bde5a4;*/
-  /*background-image: url("images/39040435-mint-green-wallpapers.jpg");*/
-  width: 980px;
-  max-width: 980px;
-  margin: 0 auto;
-  color: #3d3d3d;
-}
-
-h1 {
-  font-family: 'Cinzel', serif;
-  letter-spacing: 3px;
-  margin-bottom: 0px;
-}
-
-h3 {
-  margin-top: 5px;
-  font-family: 'Cinzel', serif;
-  letter-spacing: 3px;
-}
-
-.image-wrapper {
-  display: inline-block;
-
-}
-
-img {
-  width: 300px;
-  max-width: 300px;
-  display: inline-block;
-  /*max-width: 500px;
-  max-height: 500px;*/
-  margin: 0 auto;
-  padding: 0 7px;
-}
-
-.heading {
-  margin: 50px 0 -10px 0;
-  letter-spacing: 2px;
-}
-
-figcaption {
-  font-style: italic;
-}
-
-.content {
+  margin: 10vh auto 0;
   text-align: center;
-  display: inline-block;
-  position: relative;
+  font-family: 'Calibri';
+}
+.top-header {
+  display: flex;
+  justify-content: center;
+}
+.top-header .header-left-container {
+  display: flex;
+  width: 50%;
+}
+.top-header .header-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.top-header img {
+  border: 3px solid red;
   width: 100%;
+  height: 100%;
+  margin: auto;
 }
-
-p {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 125%;
+.top-header h1 {
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 240px;
+  color: red;
+  font-family: 'Calibri Light';
+  font-weight: 500;
 }
-
-#four {
-
+.top-header p {
+  margin: 0;
 }
-
-.text {
-  font-family: 'Josefin Sans', sans-serif;
-  max-width: 600px;
-  margin: 0 auto;
-  display: inline-block;
-  padding: 0 40px;
-  text-align: justify;
+.title-header h2 {
+  font-family: 'Lucida Calligraphy';
+  font-weight: 400;
+}
+footer {
+  margin: 15px;
+}
+.same-line {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+@media only screen and (max-width: 370px) {
+  body {
+    margin: 10px;
+  }
+  .top-header h1 {
+    font-size: 23px;
+    margin: 0;
+    width: initial;
+  }
+  .top-header {
+    display: block;
+  }
+  .top-header img {
+    width: 60%;
+  }
+  .top-header .header-left-container {
+    width: initial;
+  }
+  .top-header .header-right-container {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+  .top-header .header-right-container h1 {
+    font-size: 20px;
+  }
+  .top-header .header-right-container p {
+    padding-top: 10px;
+    font-size: 13px;
+  }
+  .title-header h2 {
+    font-size: 39px;
+    margin: 10px 0;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  footer .same-line p {
+    margin: 0;
+  }
 }
