@@ -1,5 +1,5 @@
 body {
-  margin: 10vh auto 0;
+  margin: 10px;
   text-align: center;
   font-family: 'Calibri';
 }
@@ -9,7 +9,7 @@ body {
 }
 .top-header .header-left-container {
   display: flex;
-  width: 50%;
+  width: 35%;
 }
 .top-header .header-right-container {
   display: flex;
@@ -37,6 +37,8 @@ body {
 .title-header h2 {
   font-family: 'Lucida Calligraphy';
   font-weight: 400;
+  font-size: 40px;
+  margin: 20px 0;
 }
 footer {
   margin: 15px;
@@ -50,6 +52,13 @@ footer {
 }
 .right {
   text-align: right;
+}
+@media only screen and (min-width: 768px) {
+  main, footer {
+    margin: 0 auto;
+    display: block;
+    width: 35%;
+  }
 }
 @media only screen and (max-width: 370px) {
   body {
